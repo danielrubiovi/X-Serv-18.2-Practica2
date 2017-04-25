@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Acortador Urls</title>
+</head>
+<body>
+
+	<h2><font color = 'blue' , face="Comic Sans MS,arial,verdana">Vamos a acortas esas URLS...</h2></font>
+
+	<form method = 'POST' , action ='/'>
+
+	<td> Insertar Url: </td>
+	<td><input type="text" name="url"></td>
+	<p><input type="submit" name="Enviar" value="Enviar para recortar" /></p>
+
+	</form>
+
+	<p><u>Lista de las urls introducidas:</u></p>
+
+	{{lista|safe}}
+
+</body>
+</html>
